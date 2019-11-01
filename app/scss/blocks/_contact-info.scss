@@ -1,0 +1,43 @@
+.contact-info {
+  line-height: 1.2;
+}
+
+.contact-info__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-info__item {
+  margin-bottom: rem(24px);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.contact-info__caption {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: rem(12px);
+  text-transform: uppercase;
+  color: $gray-183;
+
+  b {
+    font-weight: 700;
+  }
+}
+
+.contact-info__value {
+  max-width: rem(300px);
+  margin: 0;
+  font-size: rem(14px);
+}
+
+.contact-info__phone {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.contact-info__worktime {
+}

@@ -1,0 +1,37 @@
+.section-goods-and-services {
+  [role="tablist"] {
+    user-select: none;
+  }
+
+  [role="tab"] {
+    padding-left: 8px;
+    padding-right: 8px;
+    appearance: none;
+    font: inherit;
+    text-transform: inherit;
+    border: none;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 2px dashed $gray-234;
+    cursor: pointer;
+    outline: none;
+    transition: 0.25s;
+
+    &[aria-selected="true"] {
+      color: #ffffff;
+      background-color: $accent-color;
+      cursor: default;
+      border-color: transparent;
+    }
+
+    &[aria-selected="false"] {
+      &:hover,
+      &:focus {
+        background-color: $gray-234;
+      }
+    }
+  }
+
+  [role="tabpanel"] {
+  }
+}

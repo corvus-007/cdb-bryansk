@@ -1,0 +1,11 @@
+.goods-and-services-cards {
+  @include clear-list();
+
+  display: grid;
+  grid-gap: 24px 20px;
+  grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  }
+}

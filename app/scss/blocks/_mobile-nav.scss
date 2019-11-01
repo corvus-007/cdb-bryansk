@@ -1,0 +1,23 @@
+.mobile-nav {
+  ul {
+    @include clear-list();
+
+    a {
+      display: block;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 1.2;
+      // text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    @include mq-min(1280px) {
+      a {
+        font-size: 40px;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.contact-info-worktime {
+
+}
+
+.contact-info-worktime__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-info-worktime__item {
+  margin-bottom: 12px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.contact-info-worktime__caption {
+  margin: 0;
+}
+
+.contact-info-worktime__value {
+  margin: 0;
+}

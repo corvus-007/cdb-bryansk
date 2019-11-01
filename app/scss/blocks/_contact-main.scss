@@ -1,0 +1,9 @@
+.contact-main {
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 12px;
+
+  @media (min-width: 1280px) {
+    padding: 52px;
+  }
+}

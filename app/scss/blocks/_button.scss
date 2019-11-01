@@ -1,0 +1,83 @@
+.button {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: rem(192px);
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: inherit;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.025em;
+  color: $accent-color;
+  background-color: transparent;
+  background-origin: border-box;
+  border: 2px solid;
+  box-sizing: border-box;
+  border-radius: 100px;
+  outline: none;
+  user-select: none;
+  transition: 0.3s;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: $accent-color;
+    border-color: $accent-color;
+  }
+
+  &:active {
+    opacity: 0.8;
+    transition: 0.1s;
+  }
+
+  &--fill {
+    color: #ffffff;
+    background-color: $accent-color;
+    border-color: transparent;
+    box-shadow: 0 8px 16px rgba($accent-color, 0.6);
+
+    &:hover,
+    &:focus {
+      color: #ffffff;
+      // background-size: 200% 200%;
+      background-color: darken($accent-color, 8%);
+      border-color: transparent;
+    }
+  }
+
+  &--fluid {
+    width: 100%;
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+    filter: grayscale(1);
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #ffffff;
+      background-color: $accent-color;
+    }
+  }
+}
+
+.button__icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+
+  &--left {
+    margin-right: 12px;
+  }
+
+  &--right {
+    margin-left: 12px;
+  }
+}

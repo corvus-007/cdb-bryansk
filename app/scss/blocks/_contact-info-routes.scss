@@ -1,0 +1,27 @@
+.contact-info-routes {
+
+}
+
+.contact-info-routes__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-info-routes__item {
+  margin-bottom: 12px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.contact-info-routes__caption {
+  display: block;
+  margin: 0;
+  font-weight: 500;
+}
+
+.contact-info-routes__value {
+  margin: 0;
+}

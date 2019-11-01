@@ -1,0 +1,33 @@
+.event-info {
+  @include clear-list();
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+
+  @include mq-min(768px) {
+    letter-spacing: 0.075em;
+  }
+}
+
+.event-info__item {
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+
+.event-info__date {
+  display: inline-flex;
+  align-items: center;
+}
+
+.event-info__date-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  fill: currentColor;
+}
+
+.event-info__date-text {
+}

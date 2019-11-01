@@ -1,0 +1,31 @@
+.partner-card {
+}
+
+.partner-card__wraplink {
+  display: block;
+  padding: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+  color: $base-color;
+  overflow: hidden;
+  border-radius: 4px;
+  border: 1px solid $gray-234;
+  transition: 0.4s;
+
+  &:hover,
+  &:focus {
+    transform: translate3d(0, -4px, 0);
+    color: $base-color;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+.partner-card__picture {
+  @include make-fit-object();
+
+  border-radius: 4px;
+}

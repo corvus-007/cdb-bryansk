@@ -1,0 +1,25 @@
+.header-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.header-links__item {
+  margin-right: 16px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @include mq-max(767px) {
+    display: none;
+
+    &--plans {
+      position: absolute;
+      left: 16px;
+      z-index: 5;
+      display: inline-flex;
+    }
+  }
+}

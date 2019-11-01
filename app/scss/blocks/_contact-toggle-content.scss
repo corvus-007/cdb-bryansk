@@ -1,0 +1,52 @@
+.contact-toggle-content {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  color: $base-color;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 100px;
+  user-select: none;
+  box-shadow: 0 8px 16px rgba(#000000, 0.2);
+}
+
+.contact-toggle-content__indicator {
+  position: relative;
+  flex-shrink: 0;
+  width: 32px;
+  height: 16px;
+  margin-right: 12px;
+  border-radius: 100px;
+  background-image: linear-gradient(to right, #999999 0%, #999999 50%, $accent-color 50%, $accent-color 100%);
+  background-size: 64px 16px;
+  background-position: 0;
+  transition: background-position 0.3s;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    transform: translateY(-50%);
+    background-color: #dddddd;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+
+  input:checked ~ & {
+    background-position: -100%;
+
+
+    &::before {
+      left: calc(100% - 20px);
+      background-color: darken($accent-color, 8%);
+    }
+  }
+}
+
+.contact-toggle-content__label {
+  font-size: 12px;
+  font-weight: 600;
+}

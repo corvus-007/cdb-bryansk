@@ -1,0 +1,42 @@
+.header-contact {
+  @include clear-list();
+
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 12px;
+
+  @include mq-min(1280px) {
+    font-size: 14px;
+  }
+}
+
+.header-contact__item {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  line-height: 1.15;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
+}
+
+.header-contact__icon {
+    flex-shrink: 0;
+    margin-right: 8px;
+    fill: currentColor;
+
+  @include mq-min(1280px) {
+    margin-right: 16px;
+  }
+}
+
+.header-contact__text {
+  white-space: nowrap;
+}

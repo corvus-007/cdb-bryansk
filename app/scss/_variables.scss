@@ -1,0 +1,37 @@
+// Colors
+$base-color: #221f1f;
+$accent-color: #3e64ff;
+$primary-color: #793eff;
+$secondary-color: #d93eff;
+
+$success-color: #11fd6d;
+$info-color: #b9dfff;
+$warning-color: #edf512;
+$danger-color: #fd0d4d;
+
+$gray-122: #7a7a7a;
+$gray-138: #8a8a8a;
+$gray-183: #b7b7b7;
+$gray-214: #d6d6d6;
+$gray-228: #e4e4e4;
+$gray-234: #eaeaea;
+$gray-245: #f5f5f5;
+
+$white-color: #ffffff;
+$black-color: #000000;
+$light-color: #e4e4e4;
+$muted-color: #7a7a7a;
+$link-color: $accent-color;
+
+
+// Fonts
+$font-size: 18px;
+$primary-font: "TT Norms", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$secondary-font: inherit;
+
+$duration: 0.25s;
+$border-radius: 2px;
+
+// Grid
+$grid-columns: 12;
+$gutter: 30px;

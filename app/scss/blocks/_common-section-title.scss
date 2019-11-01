@@ -1,0 +1,11 @@
+.common-section-title {
+  position: relative;
+  margin: 0;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.2;
+
+  @include mq-min(768px) {
+    font-size: 40px;
+  }
+}

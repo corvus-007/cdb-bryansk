@@ -1,0 +1,40 @@
+.out-cover-link {
+  min-width: auto;
+  padding: 12px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: currentColor;
+  background-color: transparent;
+  background-clip: padding-box;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: $accent-color;
+  }
+
+  &:active {
+    color: #ffffff;
+    background-color: $accent-color;
+    opacity: 0.7;
+  }
+}
+
+.out-cover-link__icon {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+
+  &--left {
+    margin-right: 12px;
+  }
+
+  &--right {
+    margin-left: 12px;
+  }
+}
+
+.out-cover-link__text {
+
+}

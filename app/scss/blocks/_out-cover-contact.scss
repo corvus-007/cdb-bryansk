@@ -1,0 +1,34 @@
+.out-cover-contact {
+  @include clear-list();
+
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.out-cover-contact__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  line-height: 1.15;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
+}
+
+.out-cover-contact__icon {
+    flex-shrink: 0;
+    margin-right: 16px;
+    fill: currentColor;
+}
+
+.out-cover-contact__text {
+  white-space: nowrap;
+}

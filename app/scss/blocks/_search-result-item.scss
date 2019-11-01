@@ -1,0 +1,41 @@
+.search-result-item {
+
+}
+
+.search-result-item__wraplink {
+  display: flex;
+  align-items: start;
+  text-decoration: none;
+  color: $base-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.search-result-item__content {
+
+}
+
+.search-result-item__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.search-result-item__date {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  color: $muted-color;
+}
+
+.search-result-item__summary {
+  @include clear-mr-edges-elem();
+
+  margin-top: 20px;
+  font-size: 16px;
+  color: $base-color;
+}

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="format-detection" content="telephone=no">
+  <title>Главная</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home white-header">
+  <!-- =include blocks/site-header.html -->
+
+  <div class="welcome">
+    <!-- Slider main container -->
+    <div class="welcome__carousel welcome-carousel swiper-container" data-welcome-carousel>
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="welcome-carousel__item welcome-slide swiper-slide" style="background-image:url(/images/welcome-slides/IMG_2918.jpg)">
+          <div class="welcome-slide__content container" data-swiper-parallax="-20%">
+            <h2 class="welcome-slide__title"><span class="welcome-slide__title-through-line">Центральный</span><br> Дом Быта</h2>
+            <div class="welcome-slide__text">
+              <p>Жилой комплекс «NEXT на Куйбышева» оборудован современными системами безопасности, контроля доступа, видеонаблюдения.</p>
+            </div>
+            <p class="welcome-slide__actions">
+              <a href="#to-scroll-section" class="welcome-slide__link">
+                <span class="welcome-slide__link-icon"></span>
+                Подробнее
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="welcome-carousel__item welcome-slide swiper-slide" style="background-image:url(/images/welcome-slides/02.png)">
+          <div class="welcome-slide__content container" data-swiper-parallax="-44%">
+            <h2 class="welcome-slide__title">
+              <span class="welcome-slide__title-through-line">Развитая</span> инфраструктура центра Бежицы</h2>
+            <div class="welcome-slide__text">
+              <p>Инновационный жилой комплекс Брянска «NEXT на Куйбышева» уютно расположился, в непосредственной близости от деловой и культурной жизни. Парки, школы, детские сады, больницы, торговые центры – всё рядом.</p>
+            </div>
+            <p class="welcome-slide__actions">
+              <a href="" class="welcome-slide__link">
+                <span class="welcome-slide__link-icon"></span>
+                Подробнее
+              </a>
+            </p>
+          </div>
+        </div>
+      </div> <!-- .swiper-wrapper -->
+
+      <div class="welcome-carousel__navigation-holder container">
+        <div class="welcome-carousel__navigation welcome-carousel-navigation">
+          <div class="welcome-carousel-navigation__counter"></div>
+          <button class="welcome-carousel-navigation__button welcome-carousel-navigation__button--prev" type="button" aria-label="Предыдущий слайд">
+            <svg viewBox="0 0 100 100">
+              <path d="M 10,50 L 60,100 L 70,90 L 30,50 L 70,10 L 60,0 Z"></path>
+            </svg>
+          </button>
+          <button class="welcome-carousel-navigation__button welcome-carousel-navigation__button--next" type="button" aria-label="Следующий слайд">
+            <svg viewBox="0 0 100 100">
+              <path d="M 10,50 L 60,100 L 70,90 L 30,50 L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180)"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div> <!-- .welcome -->
+
+  <section class="common-section section-events" id="to-scroll-section">
+    <header class="common-section__header container">
+      <h2 class="common-section__title common-section-title">События</h2>
+    </header>
+    <div class="common-section__body container">
+      <ul class="events-cards">
+        <li class="events-cards__item event-card">
+          <a class="event-card__wraplink" href="/page-event.html">
+            <span class="event-card__picture">
+              <img src="https://images.unsplash.com/photo-1531686264889-56fdcabd163f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="В Центральном доме быта открылась студия иностранных языков Lingvo class">
+            </span>
+            <span class="event-card__content">
+              <h2 class="event-card__title">В Центральном доме быта открылась студия иностранных языков Lingvo class</h2>
+              <ul class="event-card__info">
+                <li class="event-card__info-item">
+                  <span class="event-card__date">
+                    <svg class="event-card__date-icon" width="16" height="16">
+                      <use xlink:href="/images/symbols.svg#icon-calendar"></use>
+                    </svg>
+                    <span class="event-card__date-text">25.07.2019</span>
+                  </span>
+                </li>
+              </ul>
+            </span>
+          </a>
+        </li>
+        <li class="events-cards__item event-card">
+          <a class="event-card__wraplink" href="/page-event.html">
+            <span class="event-card__picture">
+              <img src="https://images.unsplash.com/photo-1502139214982-d0ad755818d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="После ремонта вновь открыл свои двери медицинский центр «Интермедсервис»">
+            </span>
+            <span class="event-card__content">
+              <h2 class="event-card__title">После ремонта вновь открыл свои двери медицинский центр «Интермедсервис»</h2>
+              <ul class="event-card__info">
+                <li class="event-card__info-item">
+                  <span class="event-card__date">
+                    <svg class="event-card__date-icon" width="16" height="16">
+                      <use xlink:href="/images/symbols.svg#icon-calendar"></use>
+                    </svg>
+                    <span class="event-card__date-text">03.06.2019</span>
+                  </span>
+                </li>
+              </ul>
+            </span>
+          </a>
+        </li>
+        <li class="events-cards__item event-card">
+          <a class="event-card__wraplink" href="/page-event.html">
+            <span class="event-card__picture">
+              <img src="https://images.unsplash.com/photo-1550684849-39df3781f7b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Поздравляем с праздником Великой Победы!">
+            </span>
+            <span class="event-card__content">
+              <h2 class="event-card__title">Поздравляем с праздником Великой Победы!</h2>
+              <ul class="event-card__info">
+                <li class="event-card__info-item">
+                  <span class="event-card__date">
+                    <svg class="event-card__date-icon" width="16" height="16">
+                      <use xlink:href="/images/symbols.svg#icon-calendar"></use>
+                    </svg>
+                    <span class="event-card__date-text">08.05.2019</span>
+                  </span>
+                </li>
+              </ul>
+            </span>
+          </a>
+        </li>
+        <li class="events-cards__item event-card">
+          <a class="event-card__wraplink" href="/page-event.html">
+            <span class="event-card__picture">
+              <img src="https://images.unsplash.com/photo-1530512112376-c3928c2ee68a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Весь апрель скидки и подарки в магазине «Profcosmo»">
+            </span>
+            <span class="event-card__content">
+              <h2 class="event-card__title">Весь апрель скидки и подарки в магазине «Profcosmo»</h2>
+              <ul class="event-card__info">
+                <li class="event-card__info-item">
+                  <span class="event-card__date">
+                    <svg class="event-card__date-icon" width="16" height="16">
+                      <use xlink:href="/images/symbols.svg#icon-calendar"></use>
+                    </svg>
+                    <span class="event-card__date-text">04.04.2019</span>
+                  </span>
+                </li>
+              </ul>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="common-section__footer section-events__actions container">
+      <a class="section-events__button button" href="/page-events.html">Смотреть все события</a>
+    </div>
+  </section>
+
+  <section class="common-section section-goods-and-services">
+    <header class="common-section__header container">
+      <h2 class="common-section__title common-section-title">
+        <span data-tabs-nav role="tablist">
+          <button type="button" id="tab1" aria-controls="goods" role="tab">Товары</button>
+          и
+          <button type="button" id="tab2" aria-controls="services" role="tab">услуги</button>
+        </span>
+      </h2>
+    </header>
+    <div class="common-section__body container">
+      <section id="goods" aria-labelledby="tab1" role="tabpanel">
+        <h3 class="visually-hidden">Товары</h3>
+        <div class="handlist" data-handlist hidden>
+          <a href="">Аудио-видео продукция</a>
+          <a href="">Бижутерия и аксессуары</a>
+          <a href="">Бытовая техника и электроника</a>
+          <a href="">Бытовая химия</a>
+          <a href="">Все для стройки и ремонта</a>
+          <a href="">Книги, пресса, канцтовары</a>
+          <a href="">Кожгалантерея</a>
+          <a href="">Мебель</a>
+          <a href="">Медицинские товары</a>
+          <a href="">Обувь</a>
+          <a href="">Одежда</a>
+          <a href="">Оптика</a>
+          <a href="">Парфюмерия и косметика</a>
+          <a href="">Предприятия общественного питания</a>
+          <a href="">Продажа офисной мебели</a>
+          <a href="">Продукты питания</a>
+          <a href="">Салон сотовой связи</a>
+          <a href="">Сувениры и подарки</a>
+          <a href="">Товары для детей</a>
+          <a href="">Товары для дома</a>
+          <a href="">Товары для спорта и отдыха</a>
+          <a href="">Цветы</a>
+          <a href="">Часы</a>
+          <a href="">Шторы</a>
+          <a href="">Ювелирные украшения</a>
+          <a href="">Другие товары</a>
+        </div>
+      </section>
+      <section id="services" aria-labelledby="tab2" role="tabpanel">
+        <h3 class="visually-hidden">Услуги</h3>
+        <div class="handlist" data-handlist hidden>
+          <a href="">Банкоматы</a>
+          <a href="">Изготовление ключей</a>
+          <a href="">Маникюр</a>
+          <a href="">Медицинские услуги</a>
+          <a href="">Образовательные услуги</a>
+          <a href="">Парикмахерская</a>
+          <a href="">Полиграфические услуги</a>
+          <a href="">Пошив автомобильных чехлов</a>
+          <a href="">Прием платежей</a>
+          <a href="">Реклама</a>
+          <a href="">Ремонт бытовой техники</a>
+          <a href="">Ремонт и изготовление ювелирных изделий</a>
+          <a href="">Ремонт и пошив кожаных изделий</a>
+          <a href="">Ремонт и пошив одежды</a>
+          <a href="">Ремонт компьютерной техники</a>
+          <a href="">Ремонт обуви</a>
+          <a href="">Ремонт телефонов</a>
+          <a href="">Туристическое агенство</a>
+          <a href="">Услуги по организации праздников</a>
+          <a href="">Услуги службы такси</a>
+          <a href="">Услуги страхования</a>
+          <a href="">Фотоуслуги</a>
+          <a href="">Химчистка</a>
+          <a href="">Другие услуги</a>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section class="common-section section-partners">
+    <header class="common-section__header container">
+      <h2 class="common-section__title common-section-title">Наши партнеры</h2>
+    </header>
+    <div class="common-section__body container">
+      <ul class="partners-cards">
+        <li class="partners-cards__item partner-card">
+          <a class="partner-card__wraplink" href="/page-event.html">
+            <span class="partner-card__picture">
+              <img src="https://images.unsplash.com/photo-1476994230281-1448088947db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+            </span>
+          </a>
+        </li>
+        <li class="partners-cards__item partner-card">
+          <a class="partner-card__wraplink" href="/page-event.html">
+            <span class="partner-card__picture">
+              <img src="https://images.unsplash.com/photo-1526857240824-92be52581d9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+            </span>
+          </a>
+        </li>
+        <li class="partners-cards__item partner-card">
+          <a class="partner-card__wraplink" href="/page-event.html">
+            <span class="partner-card__picture">
+              <img src="https://images.unsplash.com/photo-1470859624578-4bb57890378a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+            </span>
+          </a>
+        </li>
+        <li class="partners-cards__item partner-card">
+          <a class="partner-card__wraplink" href="/page-event.html">
+            <span class="partner-card__picture">
+              <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+            </span>
+          </a>
+        </li>
+        <li class="partners-cards__item partner-card">
+          <a class="partner-card__wraplink" href="/page-event.html">
+            <span class="partner-card__picture">
+              <img src="https://images.unsplash.com/photo-1518459031867-a89b944bffe4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+  <!-- contact--active-maps - скрывается контактная ифномация и остается карта -->
+  <section class="common-section contact contact--no-js">
+    <div class="contact__frame">
+      <div class="contact__frame-inner">
+        <div class="contact__toggle-content-wrapper container">
+          <label class="contact__toggle-content contact-toggle-content">
+            <input class="visually-hidden" type="checkbox" name="show-maps">
+            <span class="contact-toggle-content__indicator"></span>
+            <span class="contact-toggle-content__label">Только карта</span>
+          </label>
+        </div>
+
+        <div class="contact__maps">
+          <div class="contact__map contact__map--city contact-map-city" id="map" data-contact-map="city"></div>
+          <!-- .contact-map-trc__tip--hidden - скрыть подсказку-->
+          <!-- <div class="contact__map contact__map--trc contact-map-trc dragscroll" data-contact-map="trc">
+            <img src="/images/chema.jpg" alt="">
+            <div class="contact-map-trc__tip contact-map-trc__tip--hidden"></div>
+          </div> -->
+        </div> <!-- .contact__maps -->
+
+        <!-- <div class="contact__swap-maps contact-swap-maps">
+          <label>
+            <input class="visually-hidden" type="radio" name="current-map" value="city" checked>
+            <span class="button">На Яндекс.Картах</span>
+          </label>
+          <label>
+            <input class="visually-hidden" type="radio" name="current-map" value="trc">
+            <span class="button">Схема</span>
+          </label>
+        </div> -->
+
+        <div class="container">
+          <div class="contact__main contact-main">
+            <h2 class="contact__title common-section-title">Контактная информация</h2>
+            <div class="contact__info contact-info">
+              <ul class="contact-info__list">
+                <li class="contact-info__item">
+                  <p class="contact-info__caption"><b>Адрес</b></p>
+                  <p class="contact-info__value">г. Брянск, пр-т Ленина, 67</p>
+                </li>
+                <li class="contact-info__item">
+                  <p class="contact-info__caption"><b>Телефон</b></p>
+                  <p class="contact-info__value"><a class="contact-info__phone" href="tel:+74832305015">+7 (4832) 305-015</a></p>
+                </li>
+                <li class="contact-info__item">
+                  <p class="contact-info__caption"><b>График работы</b></p>
+                  <div class="contact-info__value contact-info__worktime contact-info-worktime">
+                    <ul class="contact-info-worktime__list">
+                      <li class="contact-info-worktime__item">
+                        <p class="contact-info-worktime__caption">
+                          пн–сб
+                        </p>
+                        <p class="contact-info-worktime__value">
+                          09:00–20:00
+                        </p>
+                      </li>
+                      <li class="contact-info-worktime__item">
+                        <p class="contact-info-worktime__caption">
+                          вс
+                        </p>
+                        <p class="contact-info-worktime__value">
+                          09:00–17:00
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="contact-info__item">
+                  <p class="contact-info__caption"><b>Как добраться</b></p>
+                  <div class="contact-info__value contact-info__routes contact-info-routes">
+                    <ul class="contact-info-routes__list">
+                      <li class="contact-info-routes__item">
+                        <b class="contact-info-routes__caption">Троллейбусные маршруты:</b> <span class="contact-info-routes__value">№3, 4, 10.</span>
+                      </li>
+                      <li class="contact-info-routes__item">
+                        <b class="contact-info-routes__caption">Автобусный маршрут:</b> <span class="contact-info-routes__value">№25.</span>
+                      </li>
+                      <li class="contact-info-routes__item">
+                        <b class="contact-info-routes__caption">Маршрутные такси:</b> <span class="contact-info-routes__value">№10, 11, 28, 32, 35, 36, 42, 43, 44, 46, 57, 58, 62, 119, 166.</span>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="contact-info__item">
+                  <div class="contact__taxi-wrapper">
+                    <script src="//yastatic.net/taxi-widget/ya-taxi-widget.js"></script>
+                    <div class="ya-taxi-widget" data-use-location="true" data-size="s" data-theme="action" data-title="На такси в" data-point-a="" data-point-b="34.371241,53.250706" data-ref="http%3A%2F%2Fcdb.01it.ru%2F" data-proxy-url="https://3.redirect.appmetrica.yandex.com/route?start-lat={start-lat}&amp;start-lon={start-lon}&amp;end-lat={end-lat}&amp;end-lon={end-lon}&amp;ref={ref}&amp;appmetrica_tracking_id=1178268795219780156" data-description="проспект Ленина, 67"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div> <!-- .contact__main.contact-main -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--=include blocks/site-footer.html -->
+
+</body>
+</html>

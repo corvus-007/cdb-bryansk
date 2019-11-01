@@ -1,0 +1,25 @@
+.common-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.common-section__header {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 60px;
+}
+
+.common-section__title {
+  // text-transform: uppercase;
+}
+
+.common-section__body {
+
+}
+
+.common-section__footer {
+  margin-top: 60px;
+}

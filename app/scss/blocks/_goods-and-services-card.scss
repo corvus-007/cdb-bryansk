@@ -1,0 +1,42 @@
+.goods-and-services-card {
+
+}
+
+.goods-and-services-card__wraplink {
+  display: block;
+  line-height: 1.2;
+  text-decoration: none;
+  font-weight: 500;
+  color: $base-color;
+  overflow: hidden;
+  border-radius: 4px;
+  transition: 0.4s;
+
+  &:hover,
+  &:focus {
+    transform: translate3d(0, -4px, 0);
+    color: $base-color;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+.goods-and-services-card__picture {
+  @include make-fit-object();
+
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.goods-and-services-card__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.goods-and-services-card__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+}

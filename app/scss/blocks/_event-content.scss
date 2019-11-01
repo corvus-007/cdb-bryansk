@@ -1,0 +1,12 @@
+.event-content {
+  @include mq-min(1280px) {
+    & > img,
+    p > img,
+    div > img {
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      box-sizing: border-box;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.contact-map-trc {
+  position: relative;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  img {
+    max-width: none;
+    height: 100%;
+    cursor: grab;
+  }
+}
+
+.contact-map-trc__tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(#000000, 0.4);
+  transition: 0.1s;
+
+  &::before {
+    content: "";
+    width: 120px;
+    height: 120px;
+    background: url("images/swipe.svg") no-repeat center / contain;
+  }
+
+  &--hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}

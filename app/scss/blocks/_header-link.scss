@@ -1,0 +1,93 @@
+.header-link {
+  min-width: auto;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: currentColor;
+  background-color: transparent;
+  background-clip: padding-box;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: $accent-color;
+  }
+
+  &:active {
+    color: #ffffff;
+    background-color: $accent-color;
+    opacity: 0.7;
+  }
+
+  .white-header & {
+    color: #ffffff;
+
+    &:hover,
+    &:focus {
+      color: #ffffff;
+      background-color: $accent-color;
+    }
+
+    &:active {
+      color: #ffffff;
+      background-color: $accent-color;
+      opacity: 0.7;
+    }
+  }
+
+  .is-out-cover-opened & {
+    color: $base-color;
+
+    &:hover,
+    &:focus {
+      color: #ffffff;
+      background-color: $accent-color;
+    }
+
+    &:active {
+      color: #ffffff;
+      background-color: $accent-color;
+      opacity: 0.7;
+    }
+  }
+
+  @include mq-min(768px) {
+    padding: 4px 8px;
+    line-height: 20px;
+  }
+
+  @include mq-min(1024px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  @include mq-min(1280px) {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.header-link__icon {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+
+  @include mq-min(768px) {
+    &--left {
+      margin-right: 12px;
+    }
+
+    &--right {
+      margin-left: 12px;
+    }
+  }
+}
+
+.header-link__text {
+  display: none;
+
+  @include mq-min(768px) {
+    display: block;
+  }
+}

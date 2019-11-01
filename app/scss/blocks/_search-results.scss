@@ -1,0 +1,14 @@
+.search-results {
+
+}
+
+.search-results__list {
+  @include clear-list();
+
+  display: grid;
+  gap: 40px;
+}
+
+.search-results__item {
+
+}

@@ -1,0 +1,19 @@
+.events-cards {
+  @include clear-list();
+
+  display: grid;
+  grid-gap: 28px 20px;
+
+  @include mq-min(375px) {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+
+  @include mq-min(768px) {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+
+  @include mq-min(1280px) {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-gap: 8vmin 4vmin;
+  }
+}
