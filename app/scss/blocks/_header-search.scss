@@ -21,18 +21,15 @@
   pointer-events: none;
   transform: scaleX(0);
   transform-origin: left;
-  // opacity: 0;
   visibility: hidden;
   will-change: transform, visibility;
 
   .is-header-search-showed & {
     transform: scaleX(1);
     pointer-events: all;
-    // opacity: 1;
     visibility: visible;
   }
 }
 
 .header-search__form {
-  // margin-bottom: 20px;
 }
