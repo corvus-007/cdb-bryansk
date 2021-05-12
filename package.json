@@ -36,6 +36,6 @@
     "inputmask": "^4.0.8",
     "jquery": "^3.4.1",
     "svg4everybody": "^2.1.9",
-    "swiper": "^5.0.3"
+    "swiper": "^6.5.1"
   }
 }
